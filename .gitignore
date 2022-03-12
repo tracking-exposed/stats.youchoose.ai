@@ -1,8 +1,8 @@
 
 # For hugo
-public/
-resources/
-themes/
+public/*
+resources/*
+themes/*
 
 # Internal deployment method
 .infrastructure/*

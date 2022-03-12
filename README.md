@@ -1,6 +1,6 @@
 ## Basic info 
 
-This repository work with HUGO, the static web page generator made in go, get it from [gohugo.io/](https://gohugo.io/); this repo is automatically published at the address [Youchoose.ai](https://youchoose.ai).
+This repository work with HUGO, the static web page generator made in go, get it from [gohugo.io/](https://gohugo.io/); this repo is automatically published at the address [stats.youchoose.ai](https://stats.youchoose.ai).
 
 ## Download/Clone/Install:
 
