@@ -1,0 +1,54 @@
+baseURL = "/"
+languageCode = "utf-8"
+title = "Youchoose.ai"
+theme = "trex"
+enableRobotsTXT = true
+canonifyURLs = true
+ourvision = false
+
+
+[params]
+   subtitle = "Youchoose"
+   subsite = "youchoose"
+   openGraphSiteName = "Youchoose"
+   description = "internal tools for assistance"
+   tagline     = "INTERNAL MANAGEMENT: tools for assistance"
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+
+[menu]
+ [[menu.main]]
+    name = "Main site"
+    url = "https://youchoose.ai"
+    weight = 20
+ [[menu.main]]
+    name = "🐣"
+    url = "https://twitter.com/YouChooseAI"
+    weight = 30
+
+
+ [[menu.featured]]
+    name = "Stats"
+    pre = "/images/community.jpeg"
+    url = "/adoption/"
+    weight = 1
+ [[menu.featured]]
+    name = "Gems"
+    url = "/gems/"
+    pre = "/images/user.png"
+    weight = 2
+ [[menu.featured]]
+    name= "Resources"
+    pre = "/images/creators.png"
+    weight = 3
+
+
+ [[menu.footer]]
+    name = "Did you remember to enable data donation?"
+    url = "https://youchoose.ai/data-donation"
+    weight = 70
