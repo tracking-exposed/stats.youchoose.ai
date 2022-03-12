@@ -21,3 +21,5 @@ hugo -D server
 ```
 
 And now connect to http://localhost:1313.
+
+
